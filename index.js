@@ -5,8 +5,6 @@ function converter() {
 
   let conversao = numcpf.replace(/\W/g, "");
 
-  alert("Número convertido com sucesso!");
-
   document.getElementById(
     "saida"
   ).innerHTML = `<p>Cpf/Cnpj convertido: ${conversao}</p>`;
