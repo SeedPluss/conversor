@@ -7,5 +7,7 @@ function converter() {
 
   alert("Número convertido com sucesso!");
 
-  alert(conversao);
+  document.getElementById(
+    "saida"
+  ).innerHTML = `<p>Cpf/Cnpj convertido: ${conversao}</p>`;
 }
